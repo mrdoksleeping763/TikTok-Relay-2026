@@ -1,0 +1,16 @@
+# === TikTok-Relay: Build & Secret Exclusions ===
+
+# Virtual Environment
+venv/
+bin/
+*.exe
+
+# Private Session Data
+config.yaml
+session_id.txt
+/logs/
+.tiktok_session
+
+# OS files
+.DS_Store
+Thumbs.db
